@@ -152,12 +152,12 @@ def get_ch():
 
 def summary():
             print(f'\nDepartment of {DPT}\n{name}') 
-            print('Courses\t Score\t Grade\tCredit hour ')
+            print('Courses\tScore\tGrade\tCredit hour ')
             for i in range(k):
                 if scores:
                     print(f'{courses[i]}\t{scores[i]}\t{Egrades[i]}\t{credit_hour[i]}')
                 else:
-                    print(f'{courses[i]}\t N/A \t{Egrades[i]}\t{credit_hour[i]}')
+                    print(f'{courses[i]}\tN/A\t{Egrades[i]}\t{credit_hour[i]}')
 
 def final_checks():
     while True:
